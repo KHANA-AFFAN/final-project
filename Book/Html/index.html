@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web development course</title>
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="header_one">
+            <a href="" class="logo"><i class="fas fa-book"> Books</i></a>
+
+            <form class="search-form" id="form">
+                <input id="search-box" type="search" placeholder="search here...">
+                <label for="" class="fas fa-search" id="searchBtn"></label>
+            </form>
+
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-shopping-cart" id="cart"></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="search" id="searchCart">
+        <div class="searchItem" id="searchitem"></div>
+
+        <button id="searchCartClose"><i class="fa-solid fa-xmark "></i></button>
+    </section>
+
+    <div class="side-cart" id="sideCart">
+        <h1>Cart</h1>
+        <button id="cartClose"><i class="fa-solid fa-xmark "></i></button>
+        <div class="side-cart-cart" id="sideCartCart"></div>
+        <div class="payment-total">
+            <div id="total">Total :<span>0$</span></div>
+            <button id="Checkout">Checkout</button>
+        </div>
+    </div>
+    <section class="home" id="home">
+        <div class="row">
+            <div class="content">
+                <h3>Book Heaven</h3>
+                <p>Welcome to Book Heaven, your portal to a world of literary delight. Dive into captivating stories and
+                    endless knowledge, all within reach from the cozy haven of your home.</p>
+            </div>
+            <div class="swiper books-list">
+                <div class="swiper-wrapper">
+                    <a href="" class="swiper-slide"><img src="../image/book-1.png" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="../image/book-2.png" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="../image/book-3.png" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="../image/book-4.png" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="../image/book-5.png" alt=""></a>
+                    <a href="" class="swiper-slide"><img src="../image/book-6.png" alt=""></a>
+                </div>
+
+                <img class="stand" src="./image/stand.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="featured" id="featured">
+        <div class="heading"><span>featured books</span></div>
+        <div class="swiper featured-slider">
+            <div class="wrapper" id="swiperRapper"></div>
+        </div>
+    </section>
+
+   
+    <section class="deal">
+        <div class="content">
+            <h3>deal of the day</h3>
+            <h1>upto 50% offers</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, vero. Voluptatibus voluptates inventore
+                nulla vel.
+            </p>
+            <a href="" class="btn">shop now</a>
+        </div>
+
+        <div class="image">
+            <img src="../image/deal-img.jpg" alt="">
+        </div>
+    </section>
+    <section class="reviews" id="reviews">
+        <h1 class="heading"><span>client's reviews</span></h1>
+
+        <div class="swiper reviews-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="../image/pic-1.png" alt="">
+                    <h3>john deo</h3>
+                    <p>
+                        Navigating through the "Book of Heaven" was a delightful journey. The intuitive design made it
+                        easy to explore the extensive book collection. The categorization and search features allowed me
+                        to find my favorite genres effortlessly.
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../image/pic-3.png" alt="">
+                    <h3>john Smith</h3>
+                    <p>
+                        As an avid reader, I found the "Book of Heaven" website to be a haven for book enthusiasts. The
+                        well-curated collection and user-friendly interface made it enjoyable to discover new titles.
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../image/pic-2.png" alt="">
+                    <h3>EMily Johnsoon</h3>
+                    <p>
+                        Book of Heaven" offers a visually appealing and organized platform. Browsing through the diverse
+                        book genres was a pleasure. The website's speed and responsiveness created a smooth experience
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../image/pic-4.png" alt="">
+                    <h3>Sarah Willamoun</h3>
+                    <p>
+                        "Book of Heaven" provides a user-centric book browsing experience. The personalized user
+                        accounts and wish list feature add a thoughtful touch. The website's load time is impressive
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../image/pic-5.png" alt="">
+                    <h3>Robert Tunner</h3>
+                    <p>
+                        Exploring the "Book of Heaven" was akin to embarking on a literary adventure. The seamless
+                        navigation and engaging visuals make book discovery exciting.
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="../image/pic-6.png" alt="">
+                    <h3>Mano Cat</h3>
+                    <p>
+                        "Book of Heaven" provides a user-centric book browsing experience. The personalized user
+                        accounts and wish list feature add a thoughtful touch. The website's load time is impressive,
+                    </p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <div class="share">
+            <a href=""><i class="fa fa-facebook"></i></a>
+            <a href=""><i class="fa fa-twitter"></i></a>
+            <a href=""><i class="fa fa-instagram"></i></a>
+            <a href=""><i class="fa fa-linkedin"></i></a>
+            <a href=""><i class="fa fa-square-pinterest"></i></a>
+        </div>
+
+        <div class="credit">created by <span>AFFAN AHMAD KHAN</span> | all rights reserved</div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="../Javascript/mainscript.js"></script>
+
+</body>
+
+</html>
